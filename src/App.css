@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+ 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+
+/* Position the logo in the top-left corner */
+.logo-container {
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  left: 10px; /* Adjust the left position as needed */
+}
+
+.logo {
+  height: 100px; /* Adjust the height according to your logo size */
+}
+.su{
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  left: 500px;
+  color: #fff;
+
+}
+.background-element {
+  background-image: url('C:/Users/Administrator/Desktop/REACT-PROJECT/welcome-react/public/bsc4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.nav-menu {
+  list-style: none;
+  padding: 0;
+  margin-top: -100px;
+  display: flex;
+ 
+}
+
+.nav-menu li {
+  margin-right: 20px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  
+  
+}
+
+/* Add more styles as needed */
+.pot{
+  font-size: 10px;
+  color:#fff;
+}
+.went{
+  width: 300px;
+  height: 150px;
+  border: 2px solid #000;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+
+}
+.rat{
+  width: 300px;
+  height: 150px;
+  border: 2px solid #000;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+
+}
